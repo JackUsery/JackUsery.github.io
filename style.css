@@ -1,0 +1,81 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*center the header*/
+header {
+    margin: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/*center the footer*/
+footer {
+    text-align: center;
+}
+
+
+nav {
+    /*center the nav*/
+    text-align: center;
+}
+
+nav a {
+    /*remove the underline from the links*/
+    text-decoration: none;
+    /*change the color of the links*/
+    color: black;
+}
+
+nav ul li {
+    /*display the list items side by side*/
+    display: inline-block;
+    /*add padding to the list items*/
+    padding: 1.25em;
+}
+
+section {
+    /*center the section*/
+    text-align: center;
+    /*add padding to the section*/
+    padding: 1.25em;
+}
+
+p {
+    /*add padding*/
+    padding: 1.25em;
+}
+
+.skill-list {
+    /*center the skill list*/
+    text-align: center;
+    /*add padding to the skill list*/
+    padding: 1.25em;
+    /*remove the bullet points from the skill list*/
+    list-style-type: none;
+}
+
+.skill-list li {
+    /*display the list items side by side*/
+    display: inline-block;
+    /*add padding to the list items*/
+    padding: 1.25em;
+}
+
+
+footer {
+    /*center the footer*/
+    margin-top: 20px;
+    text-align: center;
+    /*font size*/
+    font-size: .70em;
+    /*padding*/
+    padding: 1.25em;
+    /*text color of the footer*/
+    color: gray;
+}
